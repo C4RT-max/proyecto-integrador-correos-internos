@@ -1,61 +1,55 @@
-# Guion: presentación de fase 1
+# Guion de apoyo para el video de fase 1
 
-**Duración sugerida:** aproximadamente tres minutos, un minuto por integrante. La consigna solo exige un video breve; la duración es una propuesta.
-**Participantes:** Jose Martin Fuel, Kevin Almache y Felipe Montenegro.
-**Título en pantalla:** Correos internos entre dos sedes | Proyecto integrador | Fase 1.
+**Duración aproximada:** tres minutos, con participación de los tres integrantes.  
+**Proyecto:** correos internos entre dos sedes.  
+**Estado del video:** en elaboración por el equipo.
 
-Antes de grabar, confirmar el reparto, sustituir cualquier pendiente y revisar el estado real de GitHub. No presentar una aplicación funcional ni resultados de pruebas: todavía no se han realizado.
+Este guion fue preparado con apoyo de IA y ajustado a los acuerdos de organización del equipo. Sirve de apoyo para la grabación.
 
-## 0:00–1:00 | Jose Martin Fuel: problema y selección
+## Jose Martin Fuel: contexto y selección del sistema
 
-Hola, somos Jose Martin Fuel, Kevin Almache y Felipe Montenegro. Presentamos la primera fase de nuestro proyecto integrador: un sistema de correos internos entre dos sedes.
+Hola, somos Jose Martin Fuel, Kevin Almache y Felipe Montenegro. Presentamos la fase 1 de nuestro proyecto integrador: un sistema de correos internos entre dos sedes.
 
-El caso plantea una empresa de soluciones tecnológicas que ha abierto una segunda sede y necesita mantener la comunicación, autenticar a sus usuarios y proteger la información.
+El caso plantea una empresa de soluciones tecnológicas que abrió una segunda sede y necesita mantener la comunicación entre sus colaboradores, autenticar a sus usuarios y proteger la información.
 
-Elegimos correos internos porque permite enviar y consultar mensajes institucionales sin depender de un servicio público de correo. La propuesta incluye bandeja de entrada, enviados, lectura y eliminación de mensajes entre usuarios registrados.
+Elegimos correos internos porque permite intercambiar mensajes institucionales con un alcance claro. El sistema incluirá bandeja de entrada, enviados, lectura y eliminación de mensajes entre usuarios registrados, sin depender de correo externo.
 
-Esta opción nos permitirá integrar después la aplicación en Go, la autenticación con FastAPI y la infraestructura de red exigida por la consigna.
+En las siguientes fases integraremos la aplicación en Go, la autenticación con FastAPI y la infraestructura de red establecida en la consigna.
 
-Mi responsabilidad propuesta es coordinar el contexto, justificar la selección y acompañar el componente de software. En esta entrega nos concentramos exclusivamente en comprender el problema y organizar el trabajo.
+Mi responsabilidad es desarrollar el contexto, justificar la selección y coordinar el componente de software. En esta fase nos centramos en comprender la necesidad y organizar el trabajo.
 
-**Apoyo visual:** título con los tres nombres; luego problema y aplicación elegida, sin diagramas propios de arquitectura.
+**Mostrar:** título, nombres del equipo y documento de contexto.
 
-## 1:00–2:00 | Kevin Almache: actores, organización y repositorio
+## Kevin Almache: actores, responsabilidades y repositorio
 
-Los usuarios iniciales serán los colaboradores de ambas sedes. También consideramos a la administración de tecnología, la dirección de la empresa y los docentes como actores interesados en el proyecto.
+Nuestros usuarios iniciales serán los colaboradores de las dos sedes. También identificamos a la administración de tecnología y a la dirección de la empresa como actores interesados en la solución.
 
-Mi responsabilidad propuesta es coordinar la organización de infraestructura, el repositorio y el seguimiento del trabajo.
+Mi responsabilidad es preparar la matriz de actores y responsabilidades, organizar el repositorio y coordinar el componente de infraestructura.
 
-Distribuimos la fase en dos semanas. Primero revisaremos el contexto, los roles, el contrato de comunicación y la licencia. Después revisaremos los documentos y grabaremos esta presentación.
+Tenemos documentos separados para el contexto, la matriz y el contrato de comunicación. El repositorio público de GitHub contiene estos documentos, el README, la licencia MIT y la declaración de integridad y uso de IA.
 
-Usaremos un repositorio común para mantener los archivos y registrar aportes reales. El tablero identifica responsables, revisores, plazos y evidencias. Cada tarea tendrá una revisión de otro integrante antes de darse por terminada.
+La carpeta docs sirve como respaldo organizado de la documentación del proyecto, de acuerdo con los entregables de fase 1.
 
-Los tres participaremos en las decisiones y comprenderemos el proyecto completo. Este reparto organiza el trabajo y puede ajustarse si encontramos una carga desigual.
+Los tres confirmamos la distribución de responsabilidades. Cada responsable revisará su tarea para comprobar que esté correcta y tenga coherencia. Las decisiones se tomarán entre los tres.
 
-**Apoyo visual:** matriz de responsabilidades y tablero. Si GitHub ya está creado, mostrar la URL y decir: “Este es nuestro repositorio, con README, licencia y documentos de fase 1”. Si sigue pendiente, no usar esa frase ni presentar el video como entrega cerrada.
+**Mostrar:** matriz y repositorio real en GitHub.
 
-## 2:00–3:00 | Felipe Montenegro: comunicación, integridad y cierre
+## Felipe Montenegro: comunicación, integridad y cierre
 
-Mi responsabilidad propuesta es coordinar los acuerdos de comunicación, la integridad académica y las consideraciones iniciales de seguridad e impacto social. También apoyaré el componente cuantitativo junto con mis compañeros.
+Mi responsabilidad es coordinar el contrato de comunicación, la integridad académica, las consideraciones de seguridad y la edición del video.
 
-Proponemos usar WhatsApp para coordinarnos y GitHub para registrar tareas y decisiones. Ante un desacuerdo, escucharemos a cada integrante, definiremos una acción y dejaremos constancia del acuerdo.
+Usaremos WhatsApp para coordinarnos y GitHub para respaldar la documentación. Procuraremos responder los mensajes de trabajo dentro de 24 horas, considerando nuestra disponibilidad.
 
-La licencia preliminar recomendada es MIT. Permite reutilizar y modificar nuestras aportaciones conservando el aviso de autoría y licencia. Esto no autoriza divulgar mensajes privados ni sustituye los controles de seguridad.
+Si hay un retraso, hablaremos entre nosotros para informar al docente correspondiente sobre el motivo y consultar soluciones, como presentar el trabajo en otro lapso de tiempo.
 
-Declaramos que utilizamos asistencia de inteligencia artificial para preparar los borradores y la organización inicial. Nos corresponde revisar, comprender y corregir cada contenido.
+Elegimos MIT como licencia preliminar porque permite reutilizar el proyecto conservando el aviso de autoría y licencia.
 
-Con esta fase dejamos definido el problema, la aplicación y nuestra forma de trabajo. El análisis detallado, el diseño y la implementación corresponden a las siguientes fases. Gracias.
+Utilizamos apoyo de inteligencia artificial para organizar la carpeta de documentación y preparar borradores. El equipo dirige su revisión y la elaboración de la presentación.
 
-**Apoyo visual:** contrato, licencia y declaración de IA; cierre con nombres.
+Con esta fase definimos el problema, seleccionamos el sistema y distribuimos nuestras responsabilidades. El análisis detallado, el diseño y la implementación corresponden a fases posteriores. Gracias.
 
-## Revisión antes de grabar
+**Mostrar:** contrato, licencia y cierre con los tres nombres.
 
-- Confirmar nombres, pronunciación y aceptación del reparto.
-- Cuando el equipo ratifique el acuerdo, cambiar “responsabilidad propuesta” por “responsabilidad” y “proponemos” por “acordamos”.
-- Ensayar con cronómetro; reducir pausas o texto para mantener participación equilibrada.
-- Grabar con audio claro y encuadre estable; se pueden unir tres segmentos.
-- Mostrar únicamente archivos reales y ocultar notificaciones o datos privados.
-- Incorporar subtítulos revisados si es posible.
-- Comprobar sonido, lectura del texto, duración y presencia de los tres.
-- Nombre sugerido: fase-1-correos-internos.mp4.
-- Registrar el enlace del video en ENTREGA.md y verificar que los docentes pueden abrirlo.
+## Grabación
+
+Ensayar con cronómetro, mantener el audio claro y repartir el tiempo de forma equilibrada. Mostrar los archivos reales del repositorio. Cuando el video esté terminado, incorporar su enlace en ENTREGA.md.
